@@ -1,6 +1,7 @@
-package com.ray.study.springboot05mybatis.mapper;
+package com.ray.study.spring.mybatisinaction.mapper;
 
-import com.ray.study.springboot05mybatis.entity.User;
+
+import com.ray.study.spring.mybatisinaction.entity.User;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

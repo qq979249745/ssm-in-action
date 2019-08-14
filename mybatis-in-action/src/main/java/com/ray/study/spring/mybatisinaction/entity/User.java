@@ -1,4 +1,4 @@
-package com.ray.study.springboot05mybatis.entity;
+package com.ray.study.spring.mybatisinaction.entity;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

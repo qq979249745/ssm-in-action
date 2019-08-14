@@ -1,6 +1,6 @@
-package com.ray.study.springboot05mybatis.mapper;
+package com.ray.study.spring.mybatisinaction.mapper;
 
-import com.ray.study.springboot05mybatis.entity.User;
+import com.ray.study.spring.mybatisinaction.entity.User;
 import org.apache.ibatis.annotations.*;
 
 import java.util.List;
@@ -33,7 +33,7 @@ public interface UserMapper {
 			@Result(property = "age", column = "age")
 	})
 	@Select("SELECT name, age FROM user")
-	List<User> findAll();
+    List<User> findAll();
 
 	/**
 	 * 保存用户信息
